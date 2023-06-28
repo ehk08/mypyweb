@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c930f744-7a28-4e6a-bf01-07eb08b04d79" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/board/common/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board/common/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/board/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/board/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/board/commonforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/board/commonviews.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/board/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/board/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/migrations/0002_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/migrations/0003_answer_author_question_author.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/board/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/board/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/board/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/board/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/board/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/board/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/board/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/poll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pyweb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/board/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/board/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/.idea/polls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/board/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/board/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/board/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/board/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/board/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2RXSE1v4KXMYcLIRjJRWp5Ml8Gx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/mypyweb/blogs"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.views">
+    <configuration name="이름이 지정되지 않았습니다" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pyweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\myvenv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10 (myvenv)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="software.aws.toolkits.jetbrains.core.execution.PythonAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyweb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/templates/board" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/templates/board/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.이름이 지정되지 않았습니다" />
+      <item itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="c930f744-7a28-4e6a-bf01-07eb08b04d79" name="변경" comment="" />
+      <created>1687394818489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687394818489</updated>
+    </task>
+    <servers />
+  </component>
+</project>

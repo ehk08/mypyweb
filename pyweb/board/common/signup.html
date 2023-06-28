@@ -1,0 +1,51 @@
+{% extends 'base.html'%}
+{% block content %}
+<div class="container">
+    <section id="signup">
+        <h1>회원 가입</h1>
+    </section>
+</div>
+    <div class="form-group">
+        <label for="last_name">이름</label>
+        <input type="password"
+               class="form-control"
+               value="{{ form.last_name.value|default_if_none }}"
+    </div>
+
+    <div class="form-group">
+        <label for="last_name">회원 가입</label>
+        <input type="password"
+               class="form-control"
+               value="{{ form.last_name.value.falue
+    </div>
+
+<div class="form-group">
+        <label for="last_name">비밀번호</label>
+        <input type="password"
+               class="form-control"
+               value="{{ form.last_name.value"
+    </div>
+
+    <div class="form-group">
+        <label for="last_name">비밀번호 확인</label>
+        <input type="password"
+               class="form-control"
+               value="{{ form.last_name.value"
+    </div>
+{% endblock %}
+
+
+<section id="login">
+    <div class="container">
+        <section id="signup">
+            <div class="row"></div>
+                <h4>회원 가입</h4>
+            </div>
+            <div class="col-8 text-end">
+        <span>
+            또는 <a href="{% url 'common:login' %}">로그인하세요</a>
+        </span>
+    </div>
+        </section>
+    </div>
+</section>

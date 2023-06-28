@@ -1,0 +1,33 @@
+<section id="detail">
+    <-- 줄바꿈 : white-space: pre-line -->
+    <div class="card-text" style="white-space: pre-line">
+        {{ question.content }}  <!-- 질문 내용 -->
+    </div>
+    <div class="d-flex justify-content-end">
+        <div class="badge bd-dark">
+            <div>{{ question.author }}</div>
+            <div>{{ question.create_date }}</div>
+        </div>
+    </div>
+    <!-- 글쓴이와 로그인한 사람과 일치하면 -->
+    {% if question.author == request.user %}
+    <div>
+        <a href="" class="btn btn sm "{% url 'board:question_delete' question.id %}"
+           onclick="return confirm('정말로 삭제하시겠습니까?')"
+           class="btn btn-sm btn-online-secondary">삭제</a>
+    </div>
+    {% endif %}
+
+    {% block script %}
+
+    <script>
+        $(document).ready(function(){
+            $('.delete').click(function(){  //삭제 버튼을 클릭하면
+                if(confirm('정말 삭제하시겠습니까?')){
+                    location.href=$(this).data('uri'); //현재 대상 객체의 주소를 이동
+                }
+            });
+        });
+    </script>
+    {% endblock %}
+</section>
